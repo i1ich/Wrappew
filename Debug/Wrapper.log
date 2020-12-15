@@ -1,0 +1,15 @@
+﻿  Engine.cpp
+  Main.cpp
+c:\users\ilich\source\repos\wrapper\main.cpp(16): warning C4326: return type of 'main' should be 'int' instead of 'void'
+c:\users\ilich\source\repos\wrapper\wrapper.h(32): warning C4018: '<': signed/unsigned mismatch
+  c:\users\ilich\source\repos\wrapper\wrapper.h(29): note: while compiling class template member function 'int Wrapper<2>::Call(void)'
+  c:\users\ilich\source\repos\wrapper\engine.h(23): note: see reference to function template instantiation 'int Wrapper<2>::Call(void)' being compiled
+  c:\users\ilich\source\repos\wrapper\main.cpp(19): note: see reference to class template instantiation 'Wrapper<2>' being compiled
+c:\users\ilich\source\repos\wrapper\wrapper.h(38): warning C4018: '<': signed/unsigned mismatch
+c:\users\ilich\source\repos\wrapper\wrapper.h(23): warning C4018: '<': signed/unsigned mismatch
+  c:\users\ilich\source\repos\wrapper\wrapper.h(22): note: while compiling class template member function 'void Wrapper<2>::Set(Params)'
+  c:\users\ilich\source\repos\wrapper\engine.h(22): note: see reference to function template instantiation 'void Wrapper<2>::Set(Params)' being compiled
+c:\users\ilich\source\repos\wrapper\wrapper.h(24): warning C4018: '<': signed/unsigned mismatch
+  Wrapper.cpp
+  Generating Code...
+  Wrapper.vcxproj -> C:\Users\ILICH\source\repos\Wrapper\Debug\Wrapper.exe
