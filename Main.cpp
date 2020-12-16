@@ -16,9 +16,9 @@ void main (void)
 {
    Subject subj;
    void *f = &Subject::f3;
-   Wrapper<2> wrapper(&subj, &Subject::f3, {{"arg1", 0}, {"arg2", 0}});
+   Wrapper<int, int> wrapper(&subj, &Subject::f3, {{"arg1", 0}, {"arg2", 0}});
    //Wrapper     w(&subj, &Subject::f3, {{"arg1", 0}, {"arg2", 0}});
-   Engine<2> engine;
+   Engine<int, int> engine;
   
   engine.register_command(&wrapper, "command1");
   
